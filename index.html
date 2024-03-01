@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tours & Travels</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    </link>
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#" id="logo"><span>T</span>ravel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+
+              <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Destinations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Domestic</a>
+          <a class="dropdown-item" href="#">International</a>
+        </div>
+      </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!--home section-->
+<div class="home">
+  <div class="content">
+    <h1>"Explore the World with Us"</h1>
+    <h1>Visit <span class="changecontent"></span><h1>
+    <a href="#">Book Place</a>
+  </div>
+</div>
+
+<!--section Book start-->
+<section class="book" id="book">
+  <div class="container">
+
+    <div class="main-text">
+      <h1><span>B</span>ook</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="images\travel.jpg">
+        </div>
+      </div>
+      <div class="col-md-6 py-3 md-0">
+        <form action="#">
+          
+          <input type="text" class="form-control" placeholder="Where To"required><br>
+          <input type="text" class="form-control" placeholder="How Many"required><br>
+          <input type="date" class="form-control" placeholder="Arrivals"required><br>
+          <textarea class="form-control" rows="2" name="text" placeholder="Enter your name"></textarea>
+          <input type="submit" value="Book now" class="submit" required>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--section package start-->
+<section class="packages" id="packages">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        
+        <div class="card">
+          <img src="images\USA (2).jpg">
+          <div class="card-body">
+            <h3>USA</h3>
+            <p>Explore iconic landmarks and vibrant cities in the diverse USA.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+       </div> 
+
+        <div class="col-md-4 py-3 py-md-0">
+        
+        <div class="card">
+          <img src="images\tr5.jpg">
+          <div class="card-body">
+            <h3>India</h3>
+            <p>Immerse yourself in the rich history and vibrant culture of India, home to the stunning Taj Mahal.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4 py-3 py-md-0">
+       
+        <div class="card">
+          <img src="images/hongkong.jpg">
+          <div class="card-body">
+            <h3>Hong Kong</h3>
+            <p>Experience the dynamic blend of Chinese and Western cultures in the bustling city of Hong Kong.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:30px">
+        <div class="col-md-4 py-3 py-md-0">
+        
+        <div class="card">
+          <img src="images\Russia (2).jpg">
+          <div class="card-body">
+            <h3>Russia</h3>
+            <p> Discover the rich history and impressive architecture of Russia, from the iconic Red Square to the beautiful palaces of St. Petersburg.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+       </div> 
+
+       <div class="col-md-4 py-3 py-md-0">
+        
+        <div class="card">
+          <img src="images\italy (2).jpg">
+          <div class="card-body">
+            <h3>Italy</h3>
+            <p>Indulge in delicious food, marvel at historic landmarks, and immerse yourself in the beauty of Italy's cities.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+       </div> 
+
+       <div class="col-md-4 py-3 py-md-0">
+        
+        <div class="card">
+          <img src="images\singapore.jpg">
+          <div class="card-body">
+            <h3>Singapore</h3>
+            <p>Experience the modernity and cultural diversity of Singapore, from its stunning skyline to its vibrant neighborhoods and delicious cuisine.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#">Book now</a>
+            
+          </div>
+        </div>
+       </div> 
+      </div>
+      </div>
+  </div>
+</section>
+
+<!section service start-->
+  <section class="services" id="services">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top:30px">
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hotel"></i>
+            <div class="card-body">
+              <h3>Affordable Hotel</h3>
+              <p>Find budget-friendly hotels that offer comfortable rooms and great amenities, ensuring a pleasant stay without draining your wallet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body">
+              <h3>Food & Drinks</h3>
+              <p>Explore a variety of culinary delights, from local street food to fine dining experiences, satisfying your taste buds with delicious flavors from around the world.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body">
+              <h3>Safty Guide</h3>
+              <p>Stay informed and travel with peace of mind by following our safety tips and recommendations, ensuring a secure and worry-free journey to your desired destinations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row" style="margin-top:30px">
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-globe-asia"></i>
+            <div class="card-body">
+              <h3>Around the World</h3>
+              <p>Dreaming of exploring different countries and cultures? We can help you plan your around-the-world adventure,providing recommendations on must visit destinations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-plane"></i>
+            <div class="card-body">
+              <h3>Fastest Travel</h3>
+              <p>Looking to reach your destination quickly? We can help you find the fastest travel options.Get your desired location efficiently & make the most of your time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hiking"></i>
+            <div class="card-body">
+              <h3>Adventures</h3>
+              <p>Embark on thrilling adventures, from hiking and trekking to water sports and wildlife encounters, creating unforgettable memories and embracing the spirit of adventure.
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   </div>
+  </section>
+
+<!--Gallery Section start-->
+<section class="gallary" id="gallary">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>G</span>allary</h1>
+    </div>
+    <div class="row" style="margin-top:30px">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/g1.jpg" height="230px">
+        </div>
+      </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/g2.jpg" height="230px">
+        </div>
+      </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/g3.jpg" height="230px">
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:30px">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/g4.jpg" height="230px">
+        </div>
+      </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/g6.jpg" height="230px">
+        </div>
+      </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/tr5.jpg" height="230px">
+        </div>
+      </div>
+
+    </div>
+
+</section>
+
+<!-- About Us Section -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="main-txt">
+      <h1>About <span> Us </span></h1>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="images\flight.jpg">
+        </div>
+      </div>
+
+      <div class="col-md-6 py-3 py-md-0">
+        <h2>How travel agency works</h2>
+        <p>1] Research the market and plan your services.<br>
+           2] Complete legal requirements and obtain necessary licenses.<br>
+           3] Create a business plan outlining objectives and strategies.<br>
+           4] Decide on your business location, whether physical or online.<br>
+           5] Establish partnerships with travel service providers.<br>
+           6] Develop a brand identity and marketing strategy.<br>
+           7] Promote your agency through various channels.<br>
+           8] Provide excellent customer service.<br>
+           9] Stay informed about travel industry trends and regulations.</p>
+        <button id="about-btn">Read more</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>Address: At post Tiwara,Dhamangaon Rly,Amravati,Maharashtra-444709</p>
+        <p>Email: sakshibhagwat2552004@gmail.com</p>
+        <p>Phone: +9552-----</p>
+      </div>
+      <div class="col-md-6">
+        <!-- Social media links with Font Awesome icons -->
+        <a href="https://www.linkedin.com/in/sakshi-bhagwat-487176259" class="text-white mr-3"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/sakshi_bhagwat25?igsh=MXJwbHBlMDdrZDZuNg==" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
